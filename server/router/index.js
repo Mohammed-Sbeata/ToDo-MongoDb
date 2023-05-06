@@ -7,7 +7,7 @@ const router = require('express').Router();
 
 
 router.post('/task', addTask);
-router.get('/task', getTasks);
+router.get('/getTasks', getTasks);
 router.delete('/task/remove/:taskId', deleteTask)
 router.patch('/task/edit/:taskId', editTask)
 
