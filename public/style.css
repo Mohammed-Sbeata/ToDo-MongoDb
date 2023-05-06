@@ -150,7 +150,12 @@ main {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
-
+.task .actions .save {
+    background-image: linear-gradient(to right, var(--pink), var(--purple));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+}
 .task .actions .delete {
 	color: crimson;
 }
