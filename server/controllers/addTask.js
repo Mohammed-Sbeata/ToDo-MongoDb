@@ -2,6 +2,7 @@ const addTaskQ = require('../database/query/addTaskQ');
 
 const addTask = (req, res, next) => {
   const task = req.body
+
   addTaskQ(task)
     .then((result) => {
       res.status(201).json({
